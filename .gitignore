@@ -1,3 +1,7 @@
 myenv
 .idea
-ticketapi/db.sqlite3
+*/__pycache__
+ticket/db.sqlite3
+ticket/ticketapi/__pycache__/
+ticket/tickets/__pycache__/
+ticket/tickets/migrations/__pycache__/
