@@ -1,6 +1,6 @@
 from django.contrib.auth.models import User
 from rest_framework import viewsets
-from ticket.serializers import UserSerializer, TicketSerializer, CategorySerializer
+from ticketapi.serializers import UserSerializer, TicketSerializer, CategorySerializer
 from tickets.models import Ticket, Category
 
 from .permissions import IsOwner
